@@ -194,7 +194,7 @@ const HealthForm = () => {
 
         {/* ECG File Input */}
         <label>
-          ECG (Upload Image): <br />
+          ECG (Optional): <br />
            <Link to="/ECG"><input  value="ECG Scan" className='jump'/></Link>
         </label>
 
