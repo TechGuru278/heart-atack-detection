@@ -98,7 +98,7 @@ function App() {
                         file.name.toLowerCase().includes('not normal ECG') ||
                         file.name.toLowerCase().includes('abnormal ECG') ||
                         file.name.toLowerCase().includes('not normal') ||
-                        file.name.toLowerCase().includes('abnormal') ||
+                        file.name.toLowerCase().includes('abnormal')
                     ) {
                         const abnormalStatement = getRandomAbnormalStatement();
                         desc = `
